@@ -15,9 +15,9 @@ class MenuList extends Component {
         RestoService.getMenuItems()
             .then(res => {
                 const {menuLoaded} = this.props;
-                return menuLoaded(res)
+                return menuLoaded(res) 
+            })
             .catch('Error');
-            });
     }
 
     render() {
