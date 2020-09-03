@@ -1,39 +1,53 @@
 {
 	"menu": [
 		{
-			"title": "Cesar salad",
-			"price": 12,
-			"url": "https://static.1000.menu/img/content/21458/-salat-cezar-s-kr-salat-cezar-s-krevetkami-s-maionezom_1501173720_1_max.jpg",
-			"category": "salads",
+			"title": "Хачапури по аджарски",
+			"price": 350,
+			"weight": 200,
+			"url": "https://static.1000.menu/img/content/21014/xachapuri-po-adjarski-iz-sloenogo-testa_1516257364_3_max.jpg",
+			"category": "Выпечка",
 			"id": 1
 		},
 		{
-			"title": "Pizza Margherita",
-			"price": 10,
-			"url": "https://www.pizzanapoletana.org/struttura/pagine_bicolor/mobile/decalogo_avpn_1.jpg",
-			"category": "pizza",
+			"title": "Пхали",
+			"price": 250,
+			"weight": 492,
+			"url": "https://static-catery-ru.gcdn.co/storage/post_image/6/623/preview_image-6W41X6Wf0k8Ljx43KhZ57ZTrM39MdUmSBg.jpg",
+			"category": "Закуски",
 			"id": 2
 		},
 		{
-			"title": "Pizza Napoletana",
-			"price": 13,
-			"url": "https://www.pizzanapoletana.org/struttura/pagine_bicolor/mobile/decalogo_avpn_1.jpg",
-			"category": "pizza",
+			"title": "Кучмачи",
+			"price": 290,
+			"weight": 196,
+			"url": "http://gstravel.ge/uploads/kuxna/kuchmachi.jpg",
+			"category": "Горячие закуски",
 			"id": 3
 		},
 		{
-			"title": "Greece salad",
-			"price": 8,
-			"url": "https://assets.epicurious.com/photos/576454fb42e4a5ed66d1df6b/master/pass/greek-salad.jpg",
-			"category": "salads",
+			"title": "Аджапсандали",
+			"price": 280,
+			"weight": 105,
+			"url": "https://www.mykazbek.ru/wp-content/uploads/2017/12/Kuchmachi-po-megrelski_Kazbek.jpg",
+			"category": "Основные блюда",
 			"id": 4
 		},
 		{
-			"title": "Cowboy Steak",
-			"price": 25,
-			"url": "https://i.cbc.ca/1.4491288.1516208229!/fileImage/httpImage/image.jpg_gen/derivatives/16x9_780/cowboysteak.jpg",
-			"category": "meat",
+			"title": "Бадриджани",
+			"price": 370,
+			"weight": 300,
+			"url": "https://g.zbp.ru/fe/95/2a854b.3lvt6q.2hqs.p0.go.jpg",
+			"category": "Закуски",
 			"id": 5
+		},
+		{
+			"title": "Хинкали",
+			"price": 45,
+			"weight": 60,
+			"url": "https://agancy.lahzeakhar.com/Eventimg/15121397053838.jpg",
+			"category": "Горячие закуски",
+			"id": 6
 		}
+		
 	]
 }

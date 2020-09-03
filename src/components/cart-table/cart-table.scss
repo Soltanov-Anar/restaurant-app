@@ -1,9 +1,17 @@
+@font-face {
+	font-family:georgia;
+	src: url(georgia.ttf);
+	font-weight: normal;
+}
+
 .cart {
     padding-top: 120px;
     padding-bottom: 50px;
     min-height: 100vh;
     &__title {
-        font-size: 36px;
+        font-family: georgia;
+        margin-top: 210px;
+        font-size: 60px;
         color: #fff;
         text-align: center;
         font-weight: 300;
@@ -45,5 +53,16 @@
         border-radius: 100%;
         border: 1px solid #fff;
         cursor: pointer;
+    }
+    .order{
+        display: block;
+        margin: 30px auto 0px auto;
+        width: 170px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: green;
+        border: none;
+        font-weight: bold;
+        font-size: 14px;
     }
 }

@@ -11,6 +11,12 @@ const menuRequested = () => {
     };
 };
 
+const menuError = () => {
+    return {
+        type: 'MENU_ERROR'
+    };
+};
+
 const addedToCart = (id) => {
     return {
         type: 'ITEM_ADD_TO_CART',
@@ -28,6 +34,7 @@ const deleteFromCart = (id) => {
 export {
     menuLoaded,
     menuRequested,
+    menuError,
     addedToCart,
     deleteFromCart
 };

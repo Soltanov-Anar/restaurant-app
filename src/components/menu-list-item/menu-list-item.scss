@@ -1,18 +1,27 @@
-.menu {
+@font-face {
+	font-family:georgia;
+	src: url(georgia.ttf);
+	font-weight: normal;
+}
+.menu {   
     &__item {
         width: 350px;
         min-height: 400px;
         background-color: #fff;
         box-shadow: 5px 5px 45px rgba(256,256,256,.1);
-        border-radius: 8px;
+        border-radius: 15px;
         padding: 20px;
         margin-right: 40px;
         margin-bottom: 40px;
+        margin-left: 22px;
     }
     &__title {
-        font-size: 22px;
+        font-size: 24px;
+        color: #000;
         margin-bottom: 20px;
         text-align: center;
+        text-decoration: none;
+        font-family: georgia;
     }
     &__img {
         width: calc(100% + 40px);
@@ -22,7 +31,9 @@
         margin-bottom: 20px;
     }
     &__category, &__price {
-        font-size: 18px;
+        text-align: left;
+        color: #000;
+        font-size: 20px;
         font-weight: 300;
         margin-bottom: 10px;
         span {
@@ -30,13 +41,18 @@
         }
     }
     &__btn {
-        width: 150px;
+        width: 170px;
         height: 40px;
         border: none;
         background-color: #29a745;
-        border-radius: 4px;
+        border-radius: 15px;
         color: #fff;
         font-size: 16px;
         cursor: pointer;
+        display: block;
+        margin: 0 auto;
+        span {
+            text-decoration: none;
+        }
     }
 }
